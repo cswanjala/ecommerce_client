@@ -1,0 +1,35 @@
+.about-hero {
+    background-image: url('https://source.unsplash.com/1200x500/?herbs,coffee');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.our-story img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-mission {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.meet-team img {
+    border: 5px solid #007bff;
+}
+
+h2 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.cta {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}

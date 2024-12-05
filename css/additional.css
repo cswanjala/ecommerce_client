@@ -1,0 +1,26 @@
+.exclusive-offers .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.limited-edition .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    padding: 50px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
