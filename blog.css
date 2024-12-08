@@ -1,0 +1,75 @@
+/* Hero Section */
+.hero {
+    background: url('../images/tutorials-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5em;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Tutorial Cards */
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(to bottom, #0073e6, #005bb5);
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+}
+
+.cta-section .btn {
+    background-color: #fff;
+    color: #005bb5;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 15px 40px;
+    transition: all 0.3s;
+}
+
+.cta-section .btn:hover {
+    background-color: #005bb5;
+    color: #fff;
+}
+
+/* Puzzle Section */
+.puzzle-board {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    font-size: 0.9em;
+}

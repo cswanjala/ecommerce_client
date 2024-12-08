@@ -3,52 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore caffeine-free coffee alternatives made from roasted herbs. Sip Herbals is your go-to for a healthier, natural morning brew.">
-    <meta name="keywords" content="herbal coffee, caffeine-free coffee, Sip Herbals, coffee alternative, roasted herbs, natural coffee substitute, benefits of herbal coffee, caffeine-free morning drinks">
-    <meta name="author" content="Sip Herbals">
-    <title>Discover Sip Herbals – The Perfect Coffee Alternative</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .sticky-nav {
-            position: sticky;
-            top: 0;
-            z-index: 1020;
-        }
-        .hero {
-            background: linear-gradient(to right, #f4d03f, #16a085);
-            color: white;
-        }
-        .testimonials {
-            background-color: #f8f9fa;
-        }
-        .faq {
-            background: #eef5f9;
-        }
-        .newsletter {
-            background: #343a40;
-            color: white;
-        }
-        .newsletter input[type="email"] {
-            border-radius: 0;
-        }
-        .footer-links a {
-            color: #adb5bd;
-            text-decoration: none;
-        }
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="description" content="Discover PlayChessUp, the ultimate AI-powered chessboard for learning and mastering chess. Perfect for all skill levels.">
+    <meta name="keywords" content="AI chessboard, smart chessboard, learn chess, connected chess, PlayChessUp">
+    <meta name="author" content="PlayChessUp">
+    <title>PlayChessUp - AI Chessboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS for Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-dark text-white sticky-nav">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">Sip Herbals</a>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">PlayChessUp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -56,78 +29,57 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="hero text-center py-5">
+        <section id="hero" class="text-center text-light py-5" data-aos="fade-up">
             <div class="container">
-                <h1 class="display-4">Welcome to Sip Herbals</h1>
-                <p class="lead">Redefine your mornings with caffeine-free, health-boosting herbal coffee.</p>
-                <a href="product.html" class="btn btn-light btn-lg">Explore Our Blends</a>
+                <h1 class="display-4">Welcome to PlayChessUp</h1>
+                <p class="lead">Learn, play, and master chess with the smartest AI-powered chessboard. Connect and compete online with ease.</p>
+                <a href="products.html" class="btn btn-primary btn-lg">Shop Now</a>
             </div>
         </section>
 
-        <!-- Why Choose Herbal Coffee Section -->
-        <section class="why-choose py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">Why Choose Herbal Coffee?</h2>
+        <!-- Features Section -->
+        <section id="features" class="py-5 bg-light" data-aos="fade-up" data-aos-delay="100">
+            <div class="container text-center">
+                <h2 class="mb-5">Why Choose PlayChessUp?</h2>
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>Many people love coffee but struggle with caffeine's side effects. Herbal coffee offers a natural alternative that's rich in flavor, nutrient-packed, and free from caffeine-induced jitters.</p>
-                        <ul>
-                            <li><strong>Boost Energy Naturally:</strong> Without caffeine.</li>
-                            <li><strong>Rich Flavor Profile:</strong> Satisfying taste crafted from roasted herbs.</li>
-                            <li><strong>Improved Digestion:</strong> Gentle on your stomach.</li>
-                            <li><strong>Eco-Friendly:</strong> Sustainably sourced and packaged.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OJ7bYW0WQ_XzEUtUL0zMM9Ty8noGues3cg&s" class="img-fluid rounded" alt="Herbal Coffee">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Product Showcase Section -->
-        <section class="product-showcase py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4">Explore Our Herbal Coffee Blends</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Classic Blend">
+                    <!-- Feature 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-light shadow-sm">
+                            <i class="fas fa-brain fa-3x text-primary p-3"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Classic Blend</h5>
-                                <p class="card-text">Roasted chicory, dandelion root, and carob for a balanced flavor.</p>
-                                <a href="product.html" class="btn btn-primary">Learn More</a>
+                                <h5 class="card-title">AI-Powered Learning</h5>
+                                <p class="card-text">Receive real-time feedback and improve your chess skills quickly, no matter your skill level.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_hDQunKV6DtAaAisyJwW46C3_Hi6b_Qx3Iw&s" class="card-img-top" alt="Vanilla Spice">
+                    <!-- Feature 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-light shadow-sm">
+                            <i class="fas fa-gamepad fa-3x text-primary p-3"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Vanilla Spice</h5>
-                                <p class="card-text">A warm blend with hints of vanilla and cinnamon.</p>
-                                <a href="product.html" class="btn btn-primary">Learn More</a>
+                                <h5 class="card-title">Seamless Online Play</h5>
+                                <p class="card-text">Connect to Chess.com and Lichess, challenge players worldwide, and track your progress.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Mocha Dream">
+                    <!-- Feature 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-light shadow-sm">
+                            <i class="fas fa-lightbulb fa-3x text-primary p-3"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Mocha Dream</h5>
-                                <p class="card-text">A rich, chocolatey twist for indulgent coffee lovers.</p>
-                                <a href="product.html" class="btn btn-primary">Learn More</a>
+                                <h5 class="card-title">Interactive Design</h5>
+                                <p class="card-text">Integrated lights guide your moves and make learning intuitive and fun.</p>
                             </div>
                         </div>
                     </div>
@@ -135,94 +87,31 @@
             </div>
         </section>
 
-        <!-- Testimonials Section -->
-        <section class="testimonials py-5 text-center">
+        <!-- Call to Action Section -->
+        <section id="cta-section" class="text-center py-5 bg-primary text-light" data-aos="fade-up" data-aos-delay="200">
             <div class="container">
-                <h2 class="mb-4">What Our Customers Are Saying</h2>
-                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <p class="lead">"Sip Herbals changed my mornings! I don’t miss caffeine at all."</p>
-                            <em>- Sarah W.</em>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">"The Vanilla Spice blend is my absolute favorite!"</p>
-                            <em>- John D.</em>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">"Finally, a coffee alternative that tastes amazing!"</p>
-                            <em>- Emma T.</em>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section class="faq py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-                <div class="accordion" id="faqAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                Is herbal coffee truly caffeine-free?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                Yes! Our blends are 100% caffeine-free, crafted from roasted herbs and botanicals.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                How do I prepare herbal coffee?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                You can brew herbal coffee just like regular coffee using a coffee maker, French press, or pour-over.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Newsletter Section -->
-        <section class="newsletter py-5 text-center">
-            <div class="container">
-                <h2>Stay Connected</h2>
-                <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
-                <form class="d-flex justify-content-center">
-                    <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
-                    <button class="btn btn-primary" type="submit">Subscribe</button>
-                </form>
+                <h2 class="display-4 mb-4">Ready to Master Chess?</h2>
+                <p class="lead mb-4">Experience the future of chess with PlayChessUp. Our AI-powered chessboard will elevate your gameplay and make learning chess enjoyable.</p>
+                <a href="products.html" class="btn btn-light btn-lg">Shop Now</a>
             </div>
         </section>
     </main>
 
-    <footer class="bg-dark text-white text-center py-4">
-        <div class="container">
-            <p class="mb-2">© 2024 Sip Herbals. All Rights Reserved.</p>
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a> | 
-                <a href="terms.html">Terms of Service</a> | 
-                <a href="contact.html">Contact Us</a>
-            </div>
-        </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; 2024 PlayChessUp. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS (for animations) -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
 </body>
 </html>

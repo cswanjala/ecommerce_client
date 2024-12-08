@@ -1,35 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Hero Section */
+.product-hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    background-attachment: fixed;
 }
 
-.card {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+.product-hero h1 {
+    font-size: 4em;
+    font-weight: 700;
 }
 
-.card img {
-    max-height: 200px;
-    object-fit: cover;
+.product-hero p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.product-showcase img {
-    max-height: 300px;
-    object-fit: cover;
+/* Product Features Section */
+#features .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.benefits h5 {
+#features .card:hover {
+    transform: translateY(-10px);
+}
+
+#features .card-body {
+    padding: 2em;
+}
+
+#features .card i {
+    font-size: 50px;
+}
+
+/* Product Image Section */
+.product-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: linear-gradient(to bottom, #0073e6, #005bb5);
+    color: #fff;
+}
+
+.cta-section h2 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+}
+
+.cta-section .btn {
+    background-color: #fff;
+    color: #005bb5;
     font-weight: bold;
+    border-radius: 25px;
+    padding: 15px 40px;
+    transition: all 0.3s;
 }
 
-.cta {
-    padding: 50px 0;
+.cta-section .btn:hover {
+    background-color: #005bb5;
+    color: #fff;
 }
 
+/* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Custom Styles for Buttons and Cards */
+.card-body {
+    color: #333;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #555;
 }
