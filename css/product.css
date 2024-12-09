@@ -1,8 +1,15 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
 /* Hero Section */
 .product-hero {
     background: url('../images/hero-bg.jpg') no-repeat center center/cover;
-    background-attachment: fixed;
+    color: #fff;
     position: relative;
+    padding: 100px 0;
 }
 
 .product-hero::before {
@@ -12,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
@@ -21,14 +28,54 @@
     z-index: 2;
 }
 
-/* Feature Section */
+/* Features Section */
+#features .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#features .card:hover {
+    transform: scale(1.05);
+}
+
 #features .card img {
     height: 200px;
     object-fit: cover;
 }
 
-/* Product Image Section */
-.product-image .row {
-    display: flex;
-    gap: 20px;
+/* Tilted Image Section */
+.image-wrapper {
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: linear-gradient(to bottom, #0073e6, #005bb5);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.cta-section .btn {
+    background-color: #fff;
+    color: #005bb5;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .btn:hover {
+    background-color: #005bb5;
+    color: #fff;
 }
